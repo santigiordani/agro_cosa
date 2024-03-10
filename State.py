@@ -142,3 +142,6 @@ def test_pmodel(state, p=None):
   y_d = y + VUC * (state.y_v + state.y_w) * t
 
   return np.array([x_d, y_d])
+
+if __name__ == '__main__':
+  print("Running State as main")
